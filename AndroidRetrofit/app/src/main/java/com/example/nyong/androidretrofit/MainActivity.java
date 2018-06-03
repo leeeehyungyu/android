@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                     }catch(JSONException e){
                         e.printStackTrace();
                     }
+                    tv.setText(response.body().toString());
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

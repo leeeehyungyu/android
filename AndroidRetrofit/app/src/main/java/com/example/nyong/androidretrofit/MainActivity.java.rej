@@ -1,0 +1,9 @@
+diff a/AndroidRetrofit/app/src/main/java/com/example/nyong/androidretrofit/MainActivity.java b/AndroidRetrofit/app/src/main/java/com/example/nyong/androidretrofit/MainActivity.java	(rejected hunks)
+@@ -54,7 +54,6 @@
+                     }catch(JSONException e){
+                         e.printStackTrace();
+                     }
+-                    tv.setText(response.body().toString());
+                 } catch (IOException e) {
+                     e.printStackTrace();
+                 }
